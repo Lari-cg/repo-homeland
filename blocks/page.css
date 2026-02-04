@@ -1,0 +1,34 @@
+.page {
+     background-color: #2A2C2F;
+     color: #ffffff;
+     max-width: 1024px;
+}
+
+.cover__container {
+width: 90%;
+}
+
+.cover__image {
+    width: 100%;
+    padding: 10%;
+}
+
+.cover {
+    min-height: 60vh;
+}
+
+.cover__title {
+max-width: 700px;
+}
+
+.cover__description {
+max-width: 720px; 
+}
+
+.content {
+    width: 90%; 
+}
+
+.footer__copyright {
+    width: 90%; 
+}
