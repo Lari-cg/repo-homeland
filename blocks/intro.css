@@ -4,3 +4,75 @@
     max-width: 984px;
 }
 
+.intro__title{
+    max-width: 830px;
+    height: 173.92px;
+}
+.intro__text{
+    max-width: 738px;
+    height: 135.66px;
+}
+.intro__text_author{
+    max-width: 732px;
+    height: 32.91px;
+}
+.intro__text_small{
+    max-width: 722px;
+    height: 181.54px;
+}
+
+
+
+
+/* pendiente modificar valores de aqui abajo */
+
+
+@media screen and (max-width:1024px) {
+.intro {
+    margin: 0 auto;
+    padding: 45px 0 46px;
+    max-width: 984px;
+}
+
+.intro__title{
+    max-width: 830px;
+    height: 173.92px;
+}
+.intro__text{
+    max-width: 738px;
+    height: 135.66px;
+}
+.intro__text_author{
+    max-width: 732px;
+    height: 32.91px;
+}
+.intro__text_small{
+    max-width: 722px;
+    height: 181.54px;
+}
+}
+
+@media screen and (max-width:544px) {
+.intro {
+    margin: 0 auto;
+    padding: 45px 0 46px;
+    max-width: 984px;
+}
+
+.intro__title{
+    max-width: 830px;
+    height: 173.92px;
+}
+.intro__text{
+    max-width: 738px;
+    height: 135.66px;
+}
+.intro__text_author{
+    max-width: 732px;
+    height: 32.91px;
+}
+.intro__text_small{
+    max-width: 722px;
+    height: 181.54px;
+}
+}

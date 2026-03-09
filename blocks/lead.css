@@ -7,6 +7,10 @@
 .lead__title{
    max-width: 830px;  
 }
+.lead__subtitle{
+    height: 72px;
+    width: 720px;
+}
 
 .lead__image{
     max-height: 615px;
@@ -22,6 +26,7 @@
     height: 158px;
     width: 530px;
 }
+
 .lead__image{
     padding: 15px 0 45px;
     height: 480px;
@@ -31,7 +36,7 @@
 
 @media screen and (max-width:544px) {
 .lead{
-    padding: 25px 0 25px;
+    padding: 25px 0 25px;11111111111
 }
     .lead__title{
     height: 88px;
