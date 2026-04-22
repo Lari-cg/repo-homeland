@@ -1,0 +1,23 @@
+.footer {
+    margin: 92px 0 24px
+}
+.footer__copyright {
+width: 194px;
+height: 16px;
+}
+
+@media screen and (max-width:1024px) {
+.footer {
+margin: 88px 0 24px;
+}
+}
+
+@media screen and (max-width:544px) {
+.footer{
+    margin: 54px 0 24px;
+}
+.footer__copyright{
+    width: 194px;
+    height: 14px;
+}
+}
