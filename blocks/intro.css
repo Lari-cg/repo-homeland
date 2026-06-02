@@ -5,9 +5,6 @@
     max-width: 984px;
 }
 
-/*checar que pex cuando se hace la pantalla mas pequeña, por que el intro se desborda hacia el photo-grid
-checar paddings y si hay alguna altura fija */
-
 
 .intro__title{
     max-width: 85%;
@@ -85,6 +82,7 @@ checar paddings y si hay alguna altura fija */
     margin: 0 auto 54px;
     padding: 45px 0 46px;
     /*max-width: 984px;*/
+    
 }
 
 
