@@ -1,0 +1,61 @@
+.places{
+    padding: 46px 0 45px;
+    margin: 0 auto;
+    max-width: 987px;
+}
+
+.place{
+    display: grid;
+grid-template-columns: 1fr 1fr; 
+
+  column-gap: 40px;
+  row-gap: 48px;
+
+grid-template-areas: 
+    "title website"
+    "image paragraph"
+    "button paragraph";
+
+    margin-bottom: 80px;
+    }
+
+.place__title{
+    grid-area: title;
+    font-size: 72px;
+    line-height: 76px;
+    margin: 0;
+}
+.place__website{
+    grid-area: website;
+    align-self: end;
+}
+
+.place__website_url{
+   font-size: 12px;
+   line-height: 100%;
+}
+.place__website_artist{
+   font-size: 18px;
+   line-height: 22px;
+   margin: 0;
+}
+
+******
+
+.place__image-container{
+    grid-area: image;
+}
+.place__paragraph{
+    grid-area: paragraph;
+    font-size: 18px;
+    line-height: 163%;
+}
+.place__button{
+    grid-area: button;
+    display:flex;
+  align-items: center;
+  justify-content: center;
+  max-width: 100%;
+  padding: 13px 20px;
+  justify-self: start;
+}
