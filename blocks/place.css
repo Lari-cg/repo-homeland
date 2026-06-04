@@ -33,6 +33,8 @@ grid-template-areas:
 .place__website_url{
    font-size: 12px;
    line-height: 100%;
+   color: #AAAAAA;
+;
 }
 .place__website_artist{
    font-size: 18px;
@@ -40,16 +42,23 @@ grid-template-areas:
    margin: 0;
 }
 
-******
 
 .place__image-container{
     grid-area: image;
+}
+
+.place__image{
+    box-shadow: 10px 10px 25px rgba(0, 0, 0, 0.5);
 }
 .place__paragraph{
     grid-area: paragraph;
     font-size: 18px;
     line-height: 163%;
 }
+
+/*Revisar que pasó con el borde del boton, esta muy redondo y el grosor de la letra, esta muy grueso, hasta ahí vamos, lo demás bien :) <3*/
+
+
 .place__button{
     grid-area: button;
     display:flex;
@@ -58,4 +67,17 @@ grid-template-areas:
   max-width: 100%;
   padding: 13px 20px;
   justify-self: start;
+  background-image: linear-gradient(180deg, #0278FE 0%, #003A7B 100%);
+  box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.25);
+  border-radius: 16px;
+  border: none; 
+outline: none;
+}
+
+.place__button span {
+  color: #ffffff;      
+  font-size: 18px; 
+  font-weight: 600;  
+  line-height: 100%;   
+  display: inline-block;
 }
