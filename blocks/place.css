@@ -49,6 +49,10 @@ grid-template-areas:
 
 .place__image{
     box-shadow: 10px 10px 25px rgba(0, 0, 0, 0.5);
+      width: 100%;
+  max-width: 100%;
+  height: auto;
+  object-fit: cover;
 }
 
 .place__image:hover {
@@ -60,7 +64,9 @@ grid-template-areas:
     line-height: 163%;
 }
 
-
+.place__paragraph p{
+    margin: 0 0 25px 0;
+}
 
 .place__button{
     grid-area: button;
@@ -69,12 +75,14 @@ grid-template-areas:
   justify-content: center;
   max-width: 100%;
   padding: 13px 20px;
-  justify-self: start;
   background-image: linear-gradient(180deg, #0278FE 0%, #003A7B 100%);
   box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.25);
   border-radius: 4px;
   border: none; 
 outline: none;
+width: fit-content;
+justify-self: start;
+  align-self: start;
 }
 
 .place__button:hover {
@@ -91,4 +99,25 @@ outline: none;
   line-height: 100%;   
   display: inline-block;
   margin: 0;
+}
+
+/*Agregar media quaries para hacer responsivo la sección de place*/
+
+@media screen and (max-width:1024px) {
+
+    .place{
+        margin: 0 24px;
+        column-gap: 28px;
+    }
+
+    .place__paragraph{
+    font-size: 16px;
+}
+
+.place__title{
+    font-size: 42px;
+    line-height: 46px;
+
+}
+
 }
