@@ -30,13 +30,13 @@ grid-template-areas:
     align-self: end;
 }
 
-.place__website_url{
+.place__website-url{
    font-size: 12px;
    line-height: 100%;
    color: #AAAAAA;
 ;
 }
-.place__website_artist{
+.place__website-artist{
    font-size: 18px;
    line-height: 22px;
    margin: 0;
@@ -86,9 +86,8 @@ justify-self: start;
 }
 
 .place__button:hover {
-  background-image: 
-    linear-gradient(rgba(0,0,0, 0.4), rgba(0,0,0, 0.4)),
-    linear-gradient(180deg, #0278FE 0%, #003A7B 100%);
+    background-color: transparent;
+ background-image: linear-gradient(180deg, rgba(2, 120, 254, 0.5) 0%, rgba(0, 58, 123, 0.5) 100%);
 }
 
 
