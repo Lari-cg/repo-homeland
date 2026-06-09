@@ -101,7 +101,6 @@ justify-self: start;
   margin: 0;
 }
 
-/*Agregar media quaries para hacer responsivo la sección de place*/
 
 @media screen and (max-width:1024px) {
 
@@ -119,5 +118,34 @@ justify-self: start;
     line-height: 46px;
 
 }
+}
+@media screen and (max-width:544px) {
+.place {
+    grid-template-columns: 1fr; 
+
+    grid-template-areas: 
+      "title"
+      "website"
+      "image"
+      "paragraph"
+      "button";
+
+    row-gap: 30px;       
+    column-gap: 0;       
+    margin-bottom: 65px; 
+  }
+    .place__button{
+        width: 100%;           
+    justify-self: center;   
+    margin-top: 0;}
+    
+.place__title{
+    font-size: 32px;
+    line-height: 35px;
 
 }
+.place__button-paragraph{    
+  font-size: 14px;   
+}
+}
+/*Agregar media quaries para hacer responsivo la sección de place version mobile y luego crear las demas secciones, revisar detalles, margenes y listo*/
